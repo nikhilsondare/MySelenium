@@ -20,7 +20,7 @@ import net.bytebuddy.utility.RandomString;
 public class ChildBrowserPopup {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\pooja\\Desktop\\Nikhil\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\My Selenium Files\\ChromeDriver\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://vctcpune.com/");
 		Thread.sleep(500);

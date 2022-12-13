@@ -13,7 +13,7 @@ import upStoxs.Scrolling;
 public class AutoSuggestiveDropDown {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "D:\\My Selenium Files\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\My Selenium Files\\ChromeDriver\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://vctcpune.com/selenium/practice.html");
 		//List<WebElement> result1 = driver.findElements(By.id("mah-district"));

@@ -11,14 +11,21 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class GoogleList {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "D:\\My Selenium Files\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\My Selenium Files\\ChromeDriver\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.google.com/");
 		driver.findElement(By.name("q")).sendKeys("Honda");
 		Thread.sleep(500);
 		List<WebElement> results = driver.findElements(By.xpath("//ul[@class='erkvQe']//li"));
 		
+		
+		
+		
 		//How many results I got
+		
+		
+		
+		
 		System.out.println(results.size());
 		
 		//What are the results

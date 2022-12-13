@@ -18,7 +18,14 @@ public class GoogleList {
 		Thread.sleep(500);
 		List<WebElement> results = driver.findElements(By.xpath("//ul[@class='erkvQe']//li"));
 		
+		
+		
+		
 		//How many results I got
+		
+		
+		
+		
 		System.out.println(results.size());
 		
 		//What are the results

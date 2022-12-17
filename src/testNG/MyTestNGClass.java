@@ -19,6 +19,7 @@ public class MyTestNGClass {
 	    System.setProperty("webdriver.chrome.driver", "D:\\My Selenium Files\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
+	  
   }
   
   @Test
